@@ -14,6 +14,7 @@
 		4A75D2171C8A0AA600EA2725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A75D2151C8A0AA600EA2725 /* LaunchScreen.storyboard */; };
 		4A75D2221C8A0AA700EA2725 /* PreetiDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A75D2211C8A0AA700EA2725 /* PreetiDemoTests.swift */; };
 		4A75D22D1C8A0AA700EA2725 /* PreetiDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A75D22C1C8A0AA700EA2725 /* PreetiDemoUITests.swift */; };
+		4A75D23B1C8A0ADB00EA2725 /* HPSSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A75D23A1C8A0ADB00EA2725 /* HPSSliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4A75D2281C8A0AA700EA2725 /* PreetiDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreetiDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A75D22C1C8A0AA700EA2725 /* PreetiDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreetiDemoUITests.swift; sourceTree = "<group>"; };
 		4A75D22E1C8A0AA700EA2725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A75D23A1C8A0ADB00EA2725 /* HPSSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPSSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				4A75D20C1C8A0AA600EA2725 /* AppDelegate.swift */,
+				4A75D23A1C8A0ADB00EA2725 /* HPSSliderView.swift */,
 				4A75D20E1C8A0AA600EA2725 /* ViewController.swift */,
 				4A75D2101C8A0AA600EA2725 /* Main.storyboard */,
 				4A75D2131C8A0AA600EA2725 /* Assets.xcassets */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A75D23B1C8A0ADB00EA2725 /* HPSSliderView.swift in Sources */,
 				4A75D20F1C8A0AA600EA2725 /* ViewController.swift in Sources */,
 				4A75D20D1C8A0AA600EA2725 /* AppDelegate.swift in Sources */,
 			);
